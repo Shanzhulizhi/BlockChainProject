@@ -1,0 +1,73 @@
+:root {
+    --blue: rgb(0, 132, 255);
+    --blue-hover: rgb(15, 79, 207);
+    --grey-menu: rgb(88, 88, 106);
+    --grey-hover: rgb(210, 210, 210);
+    --grey-shadow: rgb(190, 190, 190);
+    --grey-background: rgb(240, 240, 240);
+}
+
+.login_page {
+    background-color: rgba(240, 242, 245, 1);
+}
+
+.container {
+
+    width: 460px; 
+    margin: 100px auto;
+    border: 1px solid #eee;
+    background-color: white;
+}
+
+.logo {
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+    width: 140px;
+    height: 140px;
+    border-radius: 284px;
+    background-color: white;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.logo > p {
+    font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #999999;
+    line-height: 36px;
+}
+
+.login_container {
+    width: 350px;
+    margin: 50px auto;
+}
+
+.el-tabs__item {
+    height: 50px;
+}
+
+.tabs_label_onclick {
+    font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #0079FE;
+}
+
+.login_form_item {
+    margin-top: 15px;
+    height: 50px;
+}
+
+.warning {
+    font-size: 16px;
+    color: red;
+    height: 16px;
+}
+
