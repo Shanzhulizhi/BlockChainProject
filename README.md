@@ -9,5 +9,6 @@
   node backend.js
   ```
 * supplyChain.sol 智能合约
+
 详细过程请参照实验报告。
 最后打开打开浏览器 localhost:8080 即可。
